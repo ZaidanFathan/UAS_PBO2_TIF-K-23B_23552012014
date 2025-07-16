@@ -1,4 +1,4 @@
-#Final Project Pemrograman Berorientasi Obyek 2
+<h1>Final Proyek Pemrograman Berorientasi Obyek 2</h1>
 <ul>
   <li>Mata Kuliah: Pemrograman Berorientasi Obyek 2</li>
   <li>Dosen Pengampu: <a href="https://github.com/Muhammad-Ikhwan-Fathulloh">Muhammad Ikhwan Fathulloh</a></li>
