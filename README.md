@@ -36,10 +36,12 @@
 
 ### 3. Polymorphism
 <code>
-  public interface Services {
-    void setor(int rekeningId, int jumlahSetoran);
-    void tarikTunai(int rekeningId, int jumlahTarikTunai);
-    void createNasabah(int jenisTabungan, String nama);
+public interface Services {
+    void setor(int jumlahSetoran);
+    void tarikTunai(int jumlahTarikTunai);
+    boolean register(String username, String password, String jenisRekening);
+    boolean login(String username, String password);
+    void historyTransaksi(TableView tableView);
 }
 </code>
 <code>
@@ -56,6 +58,6 @@
 
 ## Demo Proyek
 <ul>
-<!--   <li>Github: <a href="https://github.com/ZaidanFathan/Kasir-Bank/">Github</a></li> -->
-<!--   <li>Youtube: <a href="https://www.youtube.com/watch?v=bmrN65T-frI">Youtube</a></li>  -->
+  <li>Github: <a href="https://github.com/ZaidanFathan/UAS_PBO2_TIF-K-23B_23552012014">Github</a></li>
+  <li>Youtube: <a href="https://www.youtube.com/watch?v=LE3cF0MQ8qc">Youtube</a></li> 
 </ul>
